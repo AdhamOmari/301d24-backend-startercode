@@ -22,13 +22,13 @@ export class Favecofee extends Component {
 
 
     }
-    delete = async (e, item) => {
-        e.preventDefault()
+//     delete = async (e, item) => {
+//         e.preventDefault()
 
-await axios.delete(`http://localhost:8000/delete/${this.state.allCafeeData{idx}}`,delete)
+// await axios.delete(`http://localhost:8000/delete/${this.state.allCafeeData{idx}}`,delete)
 
-    }
-}
+//     }
+// }
     render() {
         return (
             <>
